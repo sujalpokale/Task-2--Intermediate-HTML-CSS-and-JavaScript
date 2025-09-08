@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1> My Website</h1>
+        <nav>
+            <a herf="#">Home</a>
+            <a herf="#">About</a>
+            <a herf="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <h2>Submissions</h2>
+            <ul id="submissionsList"></ul>
+        </aside>
+        <div class="form-container">
+        <form id="contactForm">
+            <h2>Contact Us</h2>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required ></textarea>
+            <input type="submit" value="Send Message" />
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

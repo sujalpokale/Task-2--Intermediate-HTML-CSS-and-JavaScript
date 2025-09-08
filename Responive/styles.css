@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+aside li{
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"]{
+    padding:10px 15px;
+    background: #333;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+form input[type="submit"]:hover{
+    background: #0056b3;
+}
+
+@media (max-width: 768px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav a{
+        margin: 10px 0;
+        padding: 5px 10px;
+    }
+}
