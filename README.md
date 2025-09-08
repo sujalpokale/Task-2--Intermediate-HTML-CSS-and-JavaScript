@@ -46,7 +46,7 @@ project/
 ## 📸 Screenshots
 
 ### Sidebar with Submissions
-![Sidebar Submissions-Contact Form](images/screenshot1.png)
+![Sidebar Submissions-Contact Form](images/Screenshot1.png)
 
 ### Todo-List
-![To-Do List](images/screenshot2.png)
+![To-Do List](images/Screenshot2.png)
